@@ -2,6 +2,8 @@
 
 Provides a C # library for easily manage an HAProxy server through his Socket API.
 
+## Getting Started
+
 ```csharp
 using (var haproxy = new HaProxyClient("127.0.0.1", 8080))
 using (var instance = haproxy.GetInstance())
