@@ -3,6 +3,27 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Clint.Network.HaProxy.Api</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Version>0.1.0</Version>
+    <Authors>Clint.Network</Authors>
+    <Company>Clint.Network</Company>
+    <Description>Provides a C # library for easily manage an HAProxy server through his TCP API.</Description>
+    <Copyright>Copyright (C) 2019 Clint.Network - All Rights Reserved</Copyright>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/clintnetwork/HaProxy.Api</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/clintnetwork/HaProxy.Api</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageTags>haproxy,reverse-proxy-haproxy-config,haproxy-api,api,configuration</PackageTags>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageIconUrl>https://raw.githubusercontent.com/clintnetwork/HaProxy.Api/master/haproxy.jpg</PackageIconUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
