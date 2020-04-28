@@ -19,8 +19,7 @@ namespace Clint.Network.HaProxy.Api
 
         internal void Connect()
         {
-            //_stream = new TcpClient(_endpoint).GetStream();
-            _stream = new TcpClient("167.71.74.160", 7777).GetStream();
+            _stream = new TcpClient(_endpoint.Address.ToString(), _endpoint.Port).GetStream();
         }
 
         public void Send(string data)
